@@ -20,6 +20,7 @@
       AdHocSettings.ShowBetweenDateCalendar = true;
       AdHocSettings.AdHocConfig = new CustomAdHocConfig();
       AdHocSettings.PrintMode = PrintMode.Html2PdfAndHtml;
+      AdHocSettings.ShowModifiedReportMessage = false;
       AdHocSettings.ChartingEngine = ChartingEngine.HtmlChart;
       //Initialize User
       //AdHocSettings.VisibleDataSources=
