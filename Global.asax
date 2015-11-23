@@ -33,6 +33,7 @@
       AdHocSettings.ReportsPath = Path.Combine(HttpContext.Current.Server.MapPath("~/"), "Reports");
       AdHocSettings.PrintMode = PrintMode.Html2PdfAndHtml;
       AdHocSettings.AdHocConfig = new CustomAdHocConfig();
+      AdHocSettings.ShowModifiedReportMessage = false;
       HttpContext.Current.Session["ReportingInitialized"] = true;
     }
   }
