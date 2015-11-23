@@ -21,6 +21,7 @@
       AdHocSettings.AdHocConfig = new CustomAdHocConfig();
       AdHocSettings.PrintMode = PrintMode.Html2PdfAndHtml;
       AdHocSettings.ChartingEngine = ChartingEngine.HtmlChart;
+      AdHocSettings.ShowModifiedReportMessage = false;
       //Initialize User
       //AdHocSettings.VisibleDataSources=
       //AdHocSettings.CurrentUserName=
