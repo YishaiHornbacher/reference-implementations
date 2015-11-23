@@ -34,6 +34,7 @@
       AdHocSettings.PrintMode = PrintMode.Html2PdfAndHtml;
       AdHocSettings.ChartingEngine = ChartingEngine.HtmlChart;
       AdHocSettings.AdHocConfig = new CustomAdHocConfig();
+      AdHocSettings.ShowModifiedReportMessage = false;
       HttpContext.Current.Session["ReportingInitialized"] = true;
     }
   }
