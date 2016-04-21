@@ -29,6 +29,7 @@
 			AdHocSettings.DashboardDesignerUrl = "Dash.aspx"
 			AdHocSettings.DashboardDateSliderMode = DashboardDateSliderMode.None
 			AdHocSettings.ShowJoinDropDown = True
+			AdHocSettings.AllowAutomaticSubreport = False
 			AdHocSettings.InstantReport = "InstantReportNew.aspx"
 			'EOPDF uses a DLL that converts HTML
 			'AdHocSettings.PdfPrintMode = PdfMode.EOPDF;
